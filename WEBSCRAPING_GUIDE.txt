@@ -1,0 +1,226 @@
+====================================================================
+  GUIA DE WEB SCRAPING - TIENDAS E-COMMERCE DE CIUDAD DEL ESTE
+====================================================================
+
+Este documento explica las tecnicas usadas para extraer datos de
+tiendas online paraguayas y como adaptarlas a otros sitios similares.
+
+
+1. REQUISITOS TECNICOS
+====================================================================
+
+   a) Python 3.13+
+   b) Dependencias:
+      - curl_cffi: HTTP client que imita fingerprints reales de Chrome
+      - beautifulsoup4 + lxml: Parseo de HTML
+      - undetected-chromedriver: Navegador automatizado anti-deteccion
+   c) Google Chrome / Chromium
+      - Instalado via Playwright o directo
+      - Ruta: %LOCALAPPDATA%\ms-playwright\chromium-1228\chrome-win64\chrome.exe
+
+
+2. TIPOS DE SITIOS Y ESTRATEGIAS
+====================================================================
+
+   A) SSR (Server-Side Rendering) - Mas Facil
+   ----------------------------------------------------------------
+   Ejemplos: Cell Shop, Shopping China, Topdek, New Zone
+   
+   El HTML ya viene con los datos de productos.
+   Solo necesitas:
+   1. requests.get() con curl_cffi impersonando Chrome
+   2. BeautifulSoup para parsear
+   3. Selectores CSS para extraer nombre, precio, imagen, link
+   
+   Codigo minimo:
+     from curl_cffi import requests
+     from bs4 import BeautifulSoup
+     
+     resp = requests.get(url, impersonate="chrome124")
+     soup = BeautifulSoup(resp.text, "lxml")
+     for card in soup.select(".product-item"):
+         name = card.select_one(".name").text.strip()
+         price = card.select_one(".price").text.strip()
+   
+   B) Cloudflare "Under Attack" - Dificil
+   ----------------------------------------------------------------
+   Ejemplo: Nissei
+   
+   Muestra pantalla de "Just a moment..." con challenge JS.
+   NO funciona con requests normales (ni siquiera curl_cffi).
+   NO funciona con Playwright (detectado como bot).
+   NO funciona con nodriver.
+
+   Solucion: undetected-chromedriver
+     - Lanza Chrome real con parches anti-deteccion
+     - Espera 5-15s a que Cloudflare resuelva el challenge
+     - Si no se resuelve, reintenta
+   
+   Codigo minimo:
+     import undetected_chromedriver as uc
+     options = uc.ChromeOptions()
+     options.binary_location = r"ruta\al\chrome.exe"
+     driver = uc.Chrome(options=options, version_main=149)
+     driver.get(url)
+     time.sleep(5)  # esperar a que pase Cloudflare
+     if "momento" in driver.title.lower():
+         time.sleep(10)  # esperar mas
+     # Extraer datos via JS
+     products = driver.execute_script("return document.querySelectorAll(...)")
+
+   C) Next.js SPA (Single Page App) - Medio
+   ----------------------------------------------------------------
+   Ejemplos: Visaovip, Atacado Connect
+   
+   El HTML inicial esta vacio (solo <div id="__next">).
+   Los productos se renderizan via JavaScript en el cliente.
+   
+   Solucion: undetected-chromedriver
+     - Espera 8s a que React compile y renderice
+     - Extrae datos del DOM ya renderizado via querySelector/execute_script
+   
+   NOTA: Algunas SPAs (como Atacado Connect) tienen las paginas de
+   detalle del producto en SSR, aunque el listado sea SPA.
+
+
+3. SELECCION DE SELECTORES
+====================================================================
+
+   Metodo recomendado para encontrar selectores:
+   
+   1. Abrir la pagina en Chrome normal
+   2. Inspeccionar (F12) una tarjeta de producto
+   3. Identificar elementos unicos:
+      - Contenedor de cada producto (clase CSS unica)
+      - Nombre: tag <a>, <h2>, <h3>, <span class="name">
+      - Precio: <span class="price">, <div class="PrecoDestacado">
+      - Imagen: <img> dentro del contenedor
+      - Link: <a href="...">
+   4. Verificar si los selectores son estables (no generados por JS)
+   5. Probar los selectores en BeautifulSoup o querySelectorAll
+
+
+4. EXTRACCION DE SKU
+====================================================================
+
+   El SKU (Stock Keeping Unit) es el identificador unico del producto.
+   Formas comunes de obtenerlo:
+   
+   a) Atributo data-* en el HTML:
+        <div data-product-id="1649909">
+        JS: element.getAttribute("data-product-id")
+   
+   b) En la URL del producto:
+        /producto/1040416  -> SKU = 1040416
+        /324020.html       -> SKU = 324020
+        /prod/.../57788/   -> SKU = 57788
+   
+   c) Span de codigo visible:
+        <span class="texto-cinza-200">57789</span>
+
+
+5. EXTRACCION DE PRECIOS
+====================================================================
+
+   Los precios vienen en varios formatos:
+   
+   a) Guarani (Gs.):
+        "Gs. 4.622.000"  -> 4622000.0
+        "$ 184.750"      -> 184750.0
+        Regex: r"Gs\.?\s*([\d.]+)"
+   
+   b) Dolar estadounidense (U$):
+        "U$ 1.369,00"    -> 1369.0
+        "U$ 25,00"       -> 25.0
+        Regex: r"U?\$\s*([\d.]+),(\d{2})"
+   
+   c) Dolar con simbolo ($):
+        "$2,500"         -> 2500.0
+        Regex: r"\$\s*([\d.,]+)"
+
+
+6. EXTRACCION DE DESCRIPCIONES
+====================================================================
+
+   Las descripciones NO estan en las paginas de listado.
+   Hay que visitar cada pagina de detalle del producto.
+   
+   Fuentes de descripcion (por orden de preferencia):
+   
+   a) JSON-LD (datos estructurados):
+        <script type="application/ld+json">
+        {"@type": "Product", "description": "..."}
+   
+   b) Meta tags:
+        <meta name="description" content="...">
+        <meta property="og:description" content="...">
+   
+   c) Div de descripcion:
+        <div class="description">...</div>
+        <div class="product-description">...</div>
+   
+   Para SPAs: puede ser necesario usar undetected-chromedriver
+   para renderizar la pagina de detalle.
+
+
+7. MANEJO DE ERRORES
+====================================================================
+
+   a) Timeouts: Usar set_page_load_timeout(30) en UC
+   b) Retries: Reintentar 2-3 veces con delay aleatorio
+   c) Cloudflare: Si "momento" o "just a moment" en title -> esperar mas
+   d) 404: Verificar URL del producto (puede haber cambiado)
+   e) Rate limiting: Agregar delays entre requests (0.5-2s)
+
+
+8. OPTIMIZACION
+====================================================================
+
+   a) Reutilizar driver UC: Un solo navegador para todos los productos
+   b) HTTP keep-alive: curl_cffi mantiene conexiones abiertas
+   c) Threading: Para stores SSR, se pueden paralelizar requests
+   d) Cache: Guardar HTML en disco para debug
+
+
+9. STORES ANALIZADAS - RESUMEN
+====================================================================
+
+   Tienda              Metodo          Productos  Cloudflare  SPA
+   ------------------- --------------- ---------- ----------- ----
+   Nissei              UC Chrome       20         SI          NO
+   Cell Shop           curl_cffi + BS  33         NO          NO
+   Shopping China      curl_cffi + BS  24         NO          NO
+   Topdek              curl_cffi + BS  32         NO          NO
+   Visaovip            UC Chrome       24         NO          SI
+   Atacado Connect     UC Chrome + BS  20         NO          SI*
+   New Zone            curl_cffi + BS  84         NO          NO
+   --------------------------------------------------------------
+   TOTAL                               237
+   
+   * Atacado Connect: listado SPA, detalle SSR
+
+
+10. FLUJO DE TRABAJO PARA NUEVA TIENDA
+====================================================================
+
+    1. Identificar el tipo de sitio:
+       - Abrir en navegador normal -> Ver codigo fuente
+       - Si el HTML tiene productos: SSR (curl_cffi + BS)
+       - Si el HTML esta vacio (solo <div id="root">): SPA (UC)
+       - Si muestra "Just a moment": Cloudflare (UC)
+    
+    2. Identificar selectores:
+       - Buscar contenedor de producto (clase unica)
+       - Identificar nombre, precio, imagen, link
+    
+    3. Identificar SKU:
+       - En URL, atributo data-*, o span visible
+    
+    4. Probar extraccion basica:
+       - Escribir script de prueba con 1-2 productos
+    
+    5. Agregar al extractor unificado:
+       - Crear funcion scrape_mitienda()
+       - Agregar a SCRAPERS en extract_all.py
+    
+    6. Verificar formato JSON de salida
