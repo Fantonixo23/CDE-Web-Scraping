@@ -38,11 +38,11 @@
   {
     "store": "new_zone",
     "sku": "126738",
-    "name": "APPLE CEL IPHONE 17 PRO MAX  512GB LL/A3257 DEEP BLUE (ESIM)$1,495.00C/IVA:$1,644.50Agregar",
+    "name": "APPLE CEL IPHONE 17 PRO MAX  512GB LL/A3257 (ESIM) DEEP BLUE$1,495.00C/IVA:$1,644.50Agregar",
     "price": 1495.0,
     "description": null,
     "image_url": "https://documents.newzone.com.py/montreal/product_image/ba4babfc-4e02-41ee-b240-8d618a620fab.webp",
-    "source_url": "https://www.newzone.com.py/producto/126738/apple_cel_iphone_17_pro_max_512gb_ll_a3257_deep_blue_esim_"
+    "source_url": "https://www.newzone.com.py/producto/126738/apple_cel_iphone_17_pro_max_512gb_ll_a3257_esim_deep_blue"
   },
   {
     "store": "new_zone",
@@ -110,7 +110,7 @@
   {
     "store": "new_zone",
     "sku": "153737",
-    "name": "APPLE MACBOOK AIR MDHE4LL/A  M5 16GB 512GB 13\" MIDNIGHT$1,295.00C/IVA:$1,424.50Agregar",
+    "name": "APPLE MACBOOK AIR MDHE4LL/A  M5 16GB 512GB 13\"  MIDNIGHT$1,295.00C/IVA:$1,424.50Agregar",
     "price": 1295.0,
     "description": null,
     "image_url": "https://documents.newzone.com.py/montreal/product_image/3f0d87be-6eea-4d93-8ed2-4014d011cf29.png",
@@ -137,8 +137,8 @@
   {
     "store": "new_zone",
     "sku": "49812",
-    "name": "APPLE CEL IPHONE 17 PRO MAX    256GB LL/A3257 SILVER   (ESIM)$1,240.00C/IVA:$1,364.00Agregar",
-    "price": 1240.0,
+    "name": "APPLE CEL IPHONE 17 PRO MAX    256GB LL/A3257 SILVER   (ESIM)$1,270.00C/IVA:$1,397.00Agregar",
+    "price": 1270.0,
     "description": null,
     "image_url": "https://documents.newzone.com.py/montreal/product_image/b18ca728-0c87-45fa-af58-5ecd6eaa57b7.webp",
     "source_url": "https://www.newzone.com.py/producto/49812/apple_cel_iphone_17_pro_max_256gb_ll_a3257_silver_esim_"
@@ -146,8 +146,8 @@
   {
     "store": "new_zone",
     "sku": "61879",
-    "name": "APPLE CEL IPHONE 17 PRO MAX   256GB LL/A3257 DEEP BLUE  (ESIM)$1,240.00C/IVA:$1,364.00Agregar",
-    "price": 1240.0,
+    "name": "APPLE CEL IPHONE 17 PRO MAX   256GB LL/A3257 DEEP BLUE  (ESIM)$1,270.00C/IVA:$1,397.00Agregar",
+    "price": 1270.0,
     "description": null,
     "image_url": "https://documents.newzone.com.py/montreal/product_image/47bd6a31-4202-41a3-b4a8-d18bb2d74a85.webp",
     "source_url": "https://www.newzone.com.py/producto/61879/apple_cel_iphone_17_pro_max_256gb_ll_a3257_deep_blue_esim_"

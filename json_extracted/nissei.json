@@ -4,8 +4,8 @@
     "sku": 1649909,
     "name": "Notebook ASUS Vivobook 15 X1504VA-BQ598W 15.6\" Intel Core i5-120U 8 GB DDR4 512 GB SSD M.2 - Quiet Blue",
     "price": 4622000.0,
-    "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/c/e/celer_image_26_33__2.jpg",
+    "description": "147802",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1649909.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-asus-vivobook-x1504va-bq598w-i5-120u-8gb-512ssd-15-6-fhd-w11-esp-blue-1gta-py"
   },
   {
@@ -13,26 +13,17 @@
     "sku": 1651352,
     "name": "Notebook ASUS Vivobook Go 15 E510KA-BQ1202W 15.6\" Intel Celeron N4500 4 GB DDR4 128 GB SSD M.2 - Black",
     "price": 1924000.0,
-    "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/e/5/e510_black_wallpaper.png",
+    "description": "149250",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1651352.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-asus-15-6-e510ka-bq1202w-cel-n4500-4-gb-128-gb-emmc-full-hd-black"
-  },
-  {
-    "store": "nissei",
-    "sku": 1651597,
-    "name": "Notebook Lenovo IdeaPad 1 82VG00WXUS 256 15.6\" AMD Ryzen 5 7520U 8 GB - Abyss Blue",
-    "price": 2649000.0,
-    "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_lenovo_ideapad_1_82vg00wxus_15_6_amd_ryzen_5_7520u_8_gb_lpddr5_256_ssd_abyss_blue_149943_0002.jpg",
-    "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-lenovo-ideapad-1-82vg00wxus-15-6-amd-ryzen-5-7520u-8-gb-lpddr5-256-ssd-abyss-blue"
   },
   {
     "store": "nissei",
     "sku": 1644432,
     "name": "Notebook 2 en 1 /Tablet Lenovo IdeaPad 5 2 en 1 14\" Táctil Intel Core Ultra 5 225U 8 GB - Luna Grey (83KR0047US)",
     "price": 4890000.0,
-    "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_tablet_lenovo_ideapad_5_2_en_1_14_intel_core_ultra_5_225u_8_gb_lpddr5x_512_gb_ssd_touch_luna_grey_83kr0047us_148320_0000.jpg",
+    "description": "148320",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1644432.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-tablet-lenovo-ideapad-5-2-en-1-14-intel-core-ultra-5-225u-8-gb-lpddr5x-512-gb-ssd-touch-luna-grey-83kr0047us"
   },
   {
@@ -40,8 +31,8 @@
     "sku": 1646426,
     "name": "Notebook Dell Inspiron 15 DC15255-A117 15.6\" Táctil AMD Ryzen 7 7730U 16 GB 512 GB SSD - Carbon Black",
     "price": 5190000.0,
-    "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_dell_inspiron_15_dc15255_a117_15_6_amd_ryzen_7_7730u_16_gb_ddr4_512_gb_ssd_touch_carbon_black_148125_0000.jpg",
+    "description": "148125",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1646426.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-dell-inspiron-15-dc15255-a117-15-6-amd-ryzen-7-7730u-16-gb-ddr4-512-gb-ssd-touch-carbon-black"
   },
   {
@@ -50,7 +41,7 @@
     "name": "Notebook Lenovo IdeaPad 1i 83B40008US 256 15.6\" Intel Core i5-1335U 16 GB - Grey",
     "price": 6212000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_lenovo_ideapad_1i_83b40008us_15_6_intel_core_i5_1335u_16_gb_ddr4_256_ssd_grey_147933_0002_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1640409.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-lenovo-ideapad-1i-83b40008us-15-6-intel-core-i5-1335u-16-gb-ddr4-256-ssd-grey"
   },
   {
@@ -59,7 +50,7 @@
     "name": "Notebook ASUS Vivobook S16 M3607HA-RP064W 16\" AMD Ryzen 9 270 16 GB DDR5 1 TB SSD M.2 - Matte Gray",
     "price": 7790000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/c/e/celer_image_12_-_2026-02-23t102340.891_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1645045.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-gamer-asus-vivobook-s16-m3607ha-rp064w-16-amd-ryzen-9-270-16-gb-ddr5-1-tb-ssd-gris-mate"
   },
   {
@@ -68,7 +59,7 @@
     "name": "Notebook ASUS Vivobook S16 M3607HA-RP064W 16\" AMD Ryzen 9 270 16 GB DDR5 1 TB SSD M.2 - Matte Gray",
     "price": 7790000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/c/e/celer_image_12_-_2026-02-23t102340.891.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1644451.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-asus-vivobook-s16-m3607ha-rp064w-16-amd-ryzen-9-270-16-gb-ddr5-1-tb-ssd-matte-gray"
   },
   {
@@ -77,7 +68,7 @@
     "name": "Notebook HP 15-FC0146DX 15.6\" Táctil AMD Ryzen 5 7520U 8 GB 512 GB SSD - Natural Silver",
     "price": 3850000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_hp_15_fc0146dx_15_6_amd_ryzen_5_7520u_8_gb_lpddr5_512_gb_ssd_touch_natural_silver_146753_0002.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1634925.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-hp-15-fc0146dx-15-6-amd-ryzen-5-7520u-8-gb-lpddr5-512-gb-ssd-touch-natural-silver"
   },
   {
@@ -86,7 +77,7 @@
     "name": "Notebook 2 en 1 /Tablet Dell Plus 2 en 1 LDB06250-7144BLU 16\" Táctil Intel Core Ultra 7 256V 16 GB 1 TB SSD - Ice",
     "price": 7750000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_tablet_dell_plus_2_en_1_ldb06250_7144blu_16_intel_core_ultra_7_256v_16_gb_lpddr5x_1_tb_ssd_touch_ice_144674_0004_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1628463.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-tablet-dell-plus-2-en-1-ldb06250-7144blu-16-intel-core-ultra-7-256v-16-gb-lpddr5x-1-tb-ssd-touch-ice"
   },
   {
@@ -95,7 +86,7 @@
     "name": "Notebook Acer Aspire 14 A14-52MT-701K 14\" Táctil Intel Core Ultra 7 258V 32 GB 1 TB SSD - Gris",
     "price": 7690000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_acer_aspire_14_a14_52mt_701k_14_intel_core_ultra_7_258v_32_gb_lpddr5x_1_tb_ssd_touch_gris_143051_0002_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1625795.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-acer-aspire-14-a14-52mt-701k-ultra-7-258v-32gbd5-1tbssd-14-fhd-touch-w11-ing-black"
   },
   {
@@ -104,7 +95,7 @@
     "name": "Notebook HP OmniBook 5 16-AG1070WM IA 512 16\" AMD Ryzen AI 7 350 16 GB - Glacier Silver",
     "price": 5890000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_hp_omnibook_5_16_ag1070wm_ia_16_amd_ryzen_ai_7_350_16_gb_lpddr5x_512_ssd_glacier_silver_142824_0003_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1625650.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-hp-omnibook-5-16-ag1070wm-ia-16-amd-ryzen-ai-7-350-16-gb-lpddr5x-512-ssd-glacier-silver"
   },
   {
@@ -113,7 +104,7 @@
     "name": "Chromebook Acer CB315-4H-C0BR IPS 15.6\" Intel Celeron N4500 4 GB 64 GB eMMC - Silver",
     "price": 1650000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_acer_chromebook_cb315_4h_c0br_ips_15_6_intel_celeron_n4500_4_gb_lpddr4x_64_gb_emmc_silver_141603_0005_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1622660.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-acer-chromebook-cb315-4h-c0br-ips-15-6-intel-celeron-n4500-4-gb-lpddr4x-64-gb-ssd-silver"
   },
   {
@@ -122,7 +113,7 @@
     "name": "Notebook HP 15 15.6\" Intel Core i3-N305 8 GB DDR4 256 GB SSD - Silver",
     "price": 3500000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_hp_15_fd0133wm_15_6_intel_core_i3_n305_8_gb_ddr4_256_gb_ssd_silver_141485_0005_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1622373.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-hp-15-fd0133wm-15-6-intel-core-i3-n305-8-gb-ddr4-256-gb-ssd-silver"
   },
   {
@@ -131,7 +122,7 @@
     "name": "Notebook Acer Aspire 14 AI A14-52M-72FH 14\" Intel Core Ultra 7-256V 16 GB LPDDR5X 1 TB SSD - Steel Gray",
     "price": 4690000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_acer_aspire_14_ai_a14_52m_72fh_14_intel_core_ultra_7_256v_16_gb_lpddr5x_1_tb_ssd_steel_gray_141303_0000_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1622543.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-acer-aspire-14-ai-a14-52m-72fh-14-intel-core-ultra-7-256v-16-gb-lpddr5x-1-tb-ssd-steel-gray"
   },
   {
@@ -140,17 +131,8 @@
     "name": "Notebook HP OmniBook X Flip 16 16\" Intel Core Ultra 7-256V 16 GB LPDDR5X 1 TB SSD - Eclipse Gray",
     "price": 7590000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_tablet_hp_omnibook_x_flip_2_en_1_16_as0023dx_16_intel_core_ultra_7_256v_16_gb_lpddr5x_1_tb_ssd_touch_eclipse_gr_141013_0004_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1621483.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-tablet-hp-omnibook-x-flip-2-en-1-16-as0023dx-16-intel-core-ultra-7-256v-16-gb-lpddr5x-1-tb-ssd-touch-eclipse-gray"
-  },
-  {
-    "store": "nissei",
-    "sku": 1619492,
-    "name": "Notebook HP OmniBook 16 16\" Intel Core Ultra 7-255U 16 GB LPDDR5X 1 TB SSD",
-    "price": 6290000.0,
-    "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_hp_omnibook_16_af1017wm_16_ultra_7_255u_16_gb_lpddr5x_1_tb_ssd_touch_silver_139754_0005_1.jpg",
-    "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/nb-hp-omnibook-16-af1017wm-ultra-7-255u-16gbd5-1tbssd-16-2k-touch-w11-ing-silver"
   },
   {
     "store": "nissei",
@@ -158,7 +140,7 @@
     "name": "Notebook Dell Inspiron 14 I5441 14\" Snapdragon X Plus 16 GB LPDDR5X 512 GB SSD - Titan Gray",
     "price": 6190000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_dell_inspiron_14_i5441_sx8661_14_snapdragon_x_plus_gb_lpddr5x_512_ssd_titan_gray_139752_0000_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1624233.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-dell-inspiron-14-i5441-sx8661-14-snapdragon-x-plus-gb-lpddr5x-512-ssd-titan-gray"
   },
   {
@@ -167,7 +149,7 @@
     "name": "Notebook Lenovo IdeaPad Slim 3 15ABR8 82XM00LMUS 15.6\" AMD Ryzen 7 5825U 16 GB DDR4 512 GB SSD - Arctic Grey",
     "price": 4990000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_lenovo_ideapad_slim_3_15abr8_82xm00lmus_15_6_amd_ryzen_7_5825u_16_gb_ddr4_512_gb_ssd_touch_arctic_grey_139651_0000_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1619564.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-lenovo-ideapad-slim-3-15abr8-82xm00lmus-15-6-amd-ryzen-7-5825u-16-gb-ddr4-512-gb-ssd-touch-arctic-grey"
   },
   {
@@ -176,7 +158,25 @@
     "name": "Notebook HP 15 15.6\" Intel Core i5-1335U 8 GB DDR4 512 GB SSD - Silver",
     "price": 4790000.0,
     "description": null,
-    "image_url": "https://nissei.com/media/catalog/product/cache/c831b74073e8f93ee349897f877fc397/n/o/notebook_hp_15_fd0075tg_15_6_intel_core_i5_1335u_8_gb_ddr4_512_gb_ssd_silver_138186_0005_1.jpg",
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1617999.jpg",
     "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-hp-15-fd0075tg-15-6-intel-core-i5-1335u-8-gb-ddr4-512-gb-ssd-silver"
+  },
+  {
+    "store": "nissei",
+    "sku": 1619078,
+    "name": "Notebook Dell Inspiron 2 en 1 LDB04250-7137 14\" Intel Core Ultra 7-256V 16 GB LPDDR5X 1 TB SSD - Ice Blue",
+    "price": 7990000.0,
+    "description": null,
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1619078.jpg",
+    "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-tablet-dell-inspiron-2-en-1-ldb04250-7137-14-intel-core-ultra-7-256v-16-gb-lpddr5x-1-tb-ssd-touch-ice-blue"
+  },
+  {
+    "store": "nissei",
+    "sku": 1615047,
+    "name": "Notebook HP 17T 17.3\" Intel Core i5-1334U 8 GB DDR4 256 GB SSD - Negro",
+    "price": 4324000.0,
+    "description": null,
+    "image_url": "https://htffrakmlltahmrzubmn.supabase.co/storage/v1/object/public/product-images/nissei/1615047.jpg",
+    "source_url": "https://nissei.com/py/informatica/notebooks/todas-las-notebooks/notebook-hp-17t-cn300-17-3-intel-core-i5-1334u-8-gb-ddr4-256-gb-ssd-negro"
   }
 ]

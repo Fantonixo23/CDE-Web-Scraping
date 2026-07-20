@@ -127,6 +127,24 @@
   },
   {
     "store": "atacado_connect",
+    "sku": "1294262",
+    "name": "Funda para Notebook Satellite A-KP12 17\" - Negro y Gris",
+    "price": 4.0,
+    "description": "Proteção prática sob medida para notebooks de até 17\" com a capa Satellite A-KP12. Fabricada em material resistente à água e com acolchoamento interno, ela abso",
+    "image_url": "https://cdn.atacadoconnect.com/produtos/1294262/thumb/capa-para-notebook-satellite-a-kp12-17-preto-e-cinza-1294262-21799.webp",
+    "source_url": "https://atacadoconnect.com/produto/mochilas-e-cases/capa-para-notebook-satellite-a-kp12-17-preto-e-cinza/1294262"
+  },
+  {
+    "store": "atacado_connect",
+    "sku": "1294255",
+    "name": "Funda para Notebook Satellite A-KP12 15.6\" - Negro y Azul",
+    "price": 5.0,
+    "description": "Proteção leve e confiável para seu notebook! A capa Satellite A-KP12 foi projetada para acomodar modelos de até 15,6\" com encaixe sob medida. Confeccionada em n",
+    "image_url": "https://cdn.atacadoconnect.com/produtos/1294255/thumb/capa-para-notebook-satellite-a-kp12-15-6-preto-e-azul-1294255-37614.webp",
+    "source_url": "https://atacadoconnect.com/produto/mochilas-e-cases/capa-para-notebook-satellite-a-kp12-156-preto-e-azul/1294255"
+  },
+  {
+    "store": "atacado_connect",
     "sku": "1294248",
     "name": "Funda para Notebook Satellite A-KP12 15.6\" - Negro y Gris",
     "price": 5.0,
@@ -160,23 +178,5 @@
     "description": "Energia estável e confiável para seus dias sem interrupções! O carregador HP PA-1650-02HC entrega 65 W com 19,5V, garantindo alimentação consistente para notebo",
     "image_url": "https://cdn.atacadoconnect.com/produtos/1268447/thumb/fonte-para-notebook-hp-pa-1650-02hc-65w-bivolt-preto-1268447-85572.webp",
     "source_url": "https://atacadoconnect.com/produto/cabos-adaptadores-e-hubs/fonte-para-notebook-hp-pa-1650-02hc-65w-bivolt-preto/1268447"
-  },
-  {
-    "store": "atacado_connect",
-    "sku": "1268430",
-    "name": "Fuente para Notebook Acer PA-1700-02 19V 2.37A Bivolt - Negro",
-    "price": 20.0,
-    "description": "A fonte para notebook Acer PA-1700-02 oferece energia estável e segura, fornecendo a potência exata para o funcionamento ideal do seu equipamento. Projetada par",
-    "image_url": "https://cdn.atacadoconnect.com/produtos/1268430/thumb/fonte-para-notebook-acer-pa-1700-02-19v-2-37a-bivolt-preto-1268430-64307.webp",
-    "source_url": "https://atacadoconnect.com/produto/adaptadores-carregadores-e-cabos/fonte-para-notebook-acer-pa-1700-02-19v-237a-bivolt-preto/1268430"
-  },
-  {
-    "store": "atacado_connect",
-    "sku": "1396867",
-    "name": "Notebook HP ProBook 4 AMD Ryzen 5-220U 16GB RAM 512GB SSD Pantalla 16\" Full HD Windows 11 Pro Español Plata - 16-D49FWLA",
-    "price": 690.0,
-    "description": "Compre Notebook HP ProBook 4 AMD Ryzen 5-220U 16GB RAM 512GB SSD Tela 16\" Full HD Windows 11 Pro Espanhol Prata - 16-D49FWLA no Paraguai com os melhores preços. Confira na Atacado Connect em Ciudad del Este.",
-    "image_url": "https://cdn.atacadoconnect.com/produtos/1396867/capa/nb-hp-16-d49fwla-r5-220u-16g512g-ssd16fhdw11espw11-pro-silver-1396867-zjdfw.webp",
-    "source_url": "https://atacadoconnect.com/produto/nb-hp-16-d49fwla-r5-220u-16g512g-ssd16fhdw11espw11-pro-silver/1396867"
   }
 ]

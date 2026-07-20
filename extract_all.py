@@ -5,6 +5,7 @@ import random
 import json
 import re
 from urllib.parse import quote_plus, urlparse
+from dotenv import load_dotenv
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 
@@ -15,6 +16,8 @@ HEADERS = {
 TIMEOUT = 20
 MAX_RETRIES = 3
 QUERY = "notebook"
+
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
 OUT_DIR = os.path.join(os.path.dirname(__file__), "json_extracted")
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -96,6 +99,119 @@ def parse_usd_price(text: str | None) -> float | None:
         cleaned = m2.group(1).replace(".", "").replace(",", ".")
         return float(cleaned)
     return None
+
+
+# ─── SUPABASE IMAGE UPLOAD ──────────────────────────────────────────────────
+
+def _get_supabase():
+    try:
+        from supabase import create_client
+        url = os.getenv("SUPABASE_URL")
+        key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+        if url and key:
+            return create_client(url, key)
+    except ImportError:
+        pass
+    return None
+
+
+def _upload_to_supabase(supabase, product: dict, image_data: bytes) -> str | None:
+    from storage3.types import FileOptions
+
+    store = product["store"]
+    sku = product["sku"]
+    ext = "jpg"
+    path = f"{store}/{sku}.{ext}"
+
+    try:
+        opts = FileOptions({"content-type": "image/jpeg", "upsert": "true"})
+        supabase.storage.from_("product-images").upload(path, image_data, opts)
+        public_url = supabase.storage.from_("product-images").get_public_url(path)
+        return public_url
+    except Exception as e:
+        print(f"      Supabase upload error: {e}")
+        return None
+
+
+def download_nissei_images(products: list[dict]) -> list[dict]:
+    """Download Nissei product images via UC (Cloudflare bypass) and upload to Supabase Storage."""
+    import base64
+
+    supabase = _get_supabase()
+    if not supabase:
+        print("    Supabase no configurado, saltando descarga de imagenes")
+        return products
+
+    try:
+        import undetected_chromedriver as uc
+    except ImportError:
+        return products
+
+    options = uc.ChromeOptions()
+    options.add_argument("--no-sandbox")
+    options.add_argument("--window-size=1920,1080")
+    options.binary_location = r"C:\Users\juamp\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe"
+
+    driver = None
+    try:
+        driver = uc.Chrome(options=options, version_main=149)
+        driver.set_page_load_timeout(30)
+
+        # Bypass Cloudflare by visiting a known-working search page
+        driver.get("https://www.nissei.com/py/catalogsearch/result/?q=notebook")
+        time.sleep(5)
+        for _ in range(6):
+            title = driver.title.lower()
+            if "momento" in title or "just a moment" in title:
+                print("    Cloudflare...", end="", flush=True)
+                time.sleep(5)
+            else:
+                break
+        print()
+
+        for i, p in enumerate(products):
+            img_url = p.get("image_url")
+            if not img_url:
+                continue
+            print(f"    Imagen {i+1}/{len(products)}...", end=" ", flush=True)
+
+            try:
+                b64data = driver.execute_async_script("""
+                    const url = arguments[0];
+                    const cb = arguments[arguments.length - 1];
+                    fetch(url, {credentials: 'include'})
+                        .then(r => {
+                            if (!r.ok) return null;
+                            return r.blob().then(b => new Promise(res => {
+                                const reader = new FileReader();
+                                reader.onload = () => res(reader.result);
+                                reader.readAsDataURL(b);
+                            }));
+                        })
+                        .catch(() => null)
+                        .then(cb);
+                """, img_url)
+
+                if b64data and "," in b64data:
+                    raw = base64.b64decode(b64data.split(",", 1)[1])
+                    new_url = _upload_to_supabase(supabase, p, raw)
+                    if new_url:
+                        p["image_url"] = new_url
+                        print("OK")
+                    else:
+                        print("upload fail")
+                else:
+                    print("no data")
+            except Exception as e:
+                print(f"err: {e}")
+
+    finally:
+        if driver:
+            try:
+                driver.quit()
+            except:
+                pass
+    return products
 
 
 def fetch_description(source_url: str, store: str) -> str | None:
@@ -761,6 +877,13 @@ def main():
             print(f"\n>> {name} descripciones via UC...")
             enrich_with_uc(products, store_key)
             save_results(name, products)
+
+    # Download Nissei images via UC and upload to Supabase Storage
+    if "Nissei" in all_results:
+        products, _ = all_results["Nissei"]
+        print(f"\n>> Nissei descarga de imagenes (Cloudflare bypass)...")
+        products = download_nissei_images(products)
+        save_results("Nissei", products)
 
     print(f"\nListo. Archivos en: {OUT_DIR}")
 

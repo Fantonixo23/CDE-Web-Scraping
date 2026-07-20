@@ -1,129 +1,48 @@
 [
   {
     "store": "visaovip",
-    "sku": "57789",
-    "name": "Notebook Gamer Gigabyte A16 3WHK3LA894PD AMD Ryzen 7 260 Pantalla Full HD+ 16.0\" / 16GB de RAM / 1TB SSD / GeForce RTX5070 8GB / EFI SHELL - Negro (Español)",
-    "price": 1369.0,
+    "sku": "59728",
+    "name": "Notebook HP 15-FC0027CA AMD Ryzen 7 7730U Pantalla Touch Full HD 15.6\" / 16GB de RAM / 512GB SSD / Win11 - Plata (Inglés)",
+    "price": 649.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-gamer-gigabyte-a16-3whk3la894pd-amd-ryzen-7-260-pantalla-full-hd-160-16gb-de-ram-1tb-ssd-geforce-rtx5070-8gb-efi-shell-negro-espanol/57789/732164.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-gamer-gigabyte-a16-3whk3la894pd-amd-ryzen-7-260-pantalla-full-hd-16-0-16gb-de-ram-1tb-ssd-geforce-rtx5070-8gb-efi-shell-negro-espanol/57789/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-15-fc0027ca-amd-ryzen-7-7730u-pantalla-touch-full-hd-156-16gb-de-ram-512gb-ssd-win11-plata-ingles/59728/741433.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-15-fc0027ca-amd-ryzen-7-7730u-pantalla-touch-full-hd-15-6-16gb-de-ram-512gb-ssd-win11-plata-ingles/59728/"
   },
   {
     "store": "visaovip",
-    "sku": "59550",
-    "name": "Notebook Dell 16 LDC16256-A049IND-PUS AMD Ryzen 7 250 Pantalla Full HD+ 16\" / 16GB de RAM / 1TB SSD / Win11 - Midnight Azul (Inglés)",
-    "price": 739.0,
+    "sku": "59465",
+    "name": "Notebook HP Omnibook 3 16-BY0015DX AMD Ryzen 5 40 Pantalla Touch 2K 16.0\" / 8GB de RAM / 256GB SSD / Win11Home - Plata (Inglés)",
+    "price": 519.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-dell-16-ldc16256-a049ind-pus-amd-ryzen-7-250-pantalla-full-hd-16-16gb-de-ram-1tb-ssd-win11-midnight-azul-ingles/59550/740690.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-dell-16-ldc16256-a049ind-pus-amd-ryzen-7-250-pantalla-full-hd-16-16gb-de-ram-1tb-ssd-win11-midnight-azul-ingles/59550/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-omnibook-3-16-by0015dx-amd-ryzen-5-40-pantalla-touch-2k-160-8gb-de-ram-256gb-ssd-win11home-plata-ingles/59465/740419.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-omnibook-3-16-by0015dx-amd-ryzen-5-40-pantalla-touch-2k-16-0-8gb-de-ram-256gb-ssd-win11home-plata-ingles/59465/"
   },
   {
     "store": "visaovip",
-    "sku": "58244",
-    "name": "Notebook Dell 15 LDC15250-7427BLK-PUS Intel Core i7 1355U Pantalla Touch Full HD 15.6\" / 16GB de RAM / 512GB SSD / Win11 - Negro (Inglés) (4CDJW)",
-    "price": 705.0,
+    "sku": "55548",
+    "name": "Notebook Gamer Acer Nitro V 15 ANV15-52-57BB Intel Core i5 13420H Pantalla Full HD 15.6\" / 16GB de RAM / 512GB SSD / Win11Home / GeForce RTX5050 8GB - Obsidian Negro (Inglés)",
+    "price": 930.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-dell-15-ldc15250-7427blk-pus-intel-core-i7-1355u-pantalla-touch-full-hd-156-16gb-de-ram-512gb-ssd-win11-negro-ingles-4cdjw/58244/734497.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-dell-15-ldc15250-7427blk-pus-intel-core-i7-1355u-pantalla-touch-full-hd-15-6-16gb-de-ram-512gb-ssd-win11-negro-ingles-4cdjw/58244/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-gamer-acer-nitro-v-15-anv15-52-57bb-intel-core-i5-13420h-pantalla-full-hd-156-16gb-de-ram-512gb-ssd-win11home-geforce-rtx5050-8gb-obsidian-negro-ingles/55548/724124.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-gamer-acer-nitro-v-15-anv15-52-57bb-intel-core-i5-13420h-pantalla-full-hd-15-6-16gb-de-ram-512gb-ssd-win11home-geforce-rtx5050-8gb-obsidian-negro-ingles/55548/"
   },
   {
     "store": "visaovip",
-    "sku": "59456",
-    "name": "Notebook ASUS Vivobook X1605VA-MB2774W Intel Core 9 270H Pantalla WUXGA 16.0\" / 16GB de RAM / 1TB SSD / Win11Home - Cool Plata (Inglés)",
-    "price": 979.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-asus-vivobook-x1605va-mb2774w-intel-core-9-270h-pantalla-wuxga-160-16gb-de-ram-1tb-ssd-win11home-cool-plata-ingles/59456/740369.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-asus-vivobook-x1605va-mb2774w-intel-core-9-270h-pantalla-wuxga-16-0-16gb-de-ram-1tb-ssd-win11home-cool-plata-ingles/59456/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "59727",
-    "name": "Notebook ASUS Vivobook GO E1504FA-AB34 AMD Ryzen 3 7320U Pantalla Full HD 15.6\" / 8GB de RAM / 256GB SSD / Win11Home - Mixed Negro (Inglés)",
-    "price": 384.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-asus-vivobook-go-e1504fa-ab34-amd-ryzen-3-7320u-pantalla-full-hd-156-8gb-de-ram-256gb-ssd-win11home-mixed-negro-ingles/59727/741426.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-asus-vivobook-go-e1504fa-ab34-amd-ryzen-3-7320u-pantalla-full-hd-15-6-8gb-de-ram-256gb-ssd-win11home-mixed-negro-ingles/59727/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "56731",
-    "name": "Notebook ASUS VivoBook F1504VAP-IH79T Intel Core 7 150U Pantalla Touch Full HD 15.6\" / 16GB de RAM / 1TB SSD / Win11Home - Cool Plata (Inglés)",
-    "price": 735.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-asus-vivobook-f1504vap-ih79t-intel-core-7-150u-pantalla-touch-full-hd-156-16gb-de-ram-1tb-ssd-win11home-cool-plata-ingles/56731/729296.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-asus-vivobook-f1504vap-ih79t-intel-core-7-150u-pantalla-touch-full-hd-15-6-16gb-de-ram-1tb-ssd-win11home-cool-plata-ingles/56731/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "55874",
-    "name": "Notebook ASUS E510 KA-BQ1202W Intel Celeron N4500 Pantalla Full HD 15.6\" / 4GB de RAM / 128GB eMMC / Win11Home - Star Negro (Inglés)",
-    "price": 225.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-asus-e510-ka-bq1202w-intel-celeron-n4500-pantalla-full-hd-156-4gb-de-ram-128gb-emmc-win11home-star-negro-ingles/55874/725551.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-asus-e510-ka-bq1202w-intel-celeron-n4500-pantalla-full-hd-15-6-4gb-de-ram-128gb-emmc-win11home-star-negro-ingles/55874/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "59725",
-    "name": "Notebook Gamer Acer Predator Helios Neo 16 AI PHN16-73-92B8 Intel Core Ultra 9 275HX Pantalla WQXGA 16\" / 16GB de RAM / 1TB SSD / Win11Home / GeForce RTX5070TI 12GB - Abyssal Negro (Inglés)",
-    "price": 1870.0,
+    "sku": "59778",
+    "name": "Notebook Gamer ROG Zephyrus G16 GU605CP-G16.U95070 Intel Core Ultra 9 285H Pantalla OLED WQXGA 16.0\" / 16GB de RAM / 1TB SSD / Win11Home / GeForce RTX5070 8GB - Eclipse Gris (Inglés)",
+    "price": 1830.0,
     "description": null,
     "image_url": "https://www.visaovip.com/sem-imagem.png",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-gamer-acer-predator-helios-neo-16-ai-phn16-73-92b8-intel-core-ultra-9-275hx-pantalla-wqxga-16-16gb-de-ram-1tb-ssd-win11home-geforce-rtx5070ti-12gb-abyssal-negro-ingles/59725/"
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-gamer-rog-zephyrus-g16-gu605cp-g16-u95070-intel-core-ultra-9-285h-pantalla-oled-wqxga-16-0-16gb-de-ram-1tb-ssd-win11home-geforce-rtx5070-8gb-eclipse-gris-ingles/59778/"
   },
   {
     "store": "visaovip",
-    "sku": "58628",
-    "name": "Notebook Gamer Acer Nitro V 15 ANV15-41-R93X AMD Ryzen 5 7535HS Pantalla Full HD 15.6\" / 8GB de RAM / 512GB SSD / Win11Home / GeForce RTX3050 6GB - Obsidian Negro (Inglés)",
-    "price": 864.0,
+    "sku": "59713",
+    "name": "Notebook Lenovo Yoga 7 2-in-1 14AGP11 AMD Ryzen AI 7 445 Pantalla Touch OLED WUXGA 14.0\" / 24GB de RAM / 512GB SSD / Win11Home - Seashell (83TD0047US) (Inglés)",
+    "price": 1229.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-gamer-acer-nitro-v-15-anv15-41-r93x-amd-ryzen-5-7535hs-pantalla-full-hd-156-8gb-de-ram-512gb-ssd-win11home-geforce-rtx3050-6gb-obsidian-negro-ingles/58628/737113.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-gamer-acer-nitro-v-15-anv15-41-r93x-amd-ryzen-5-7535hs-pantalla-full-hd-15-6-8gb-de-ram-512gb-ssd-win11home-geforce-rtx3050-6gb-obsidian-negro-ingles/58628/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "58102",
-    "name": "Notebook Acer Aspire Lite AL15-36P-32XP Intel Core 3 N350 Pantalla FHD IPS 15.6\" / 8GB de RAM / 128GB SSD / Win11 - Light Plata (Inglés) (NX.DE2AA.001)",
-    "price": 332.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-acer-aspire-lite-al15-36p-32xp-intel-core-3-n350-pantalla-fhd-ips-156-8gb-de-ram-128gb-ssd-win11-light-plata-ingles-nxde2aa001/58102/733696.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-acer-aspire-lite-al15-36p-32xp-intel-core-3-n350-pantalla-fhd-ips-15-6-8gb-de-ram-128gb-ssd-win11-light-plata-ingles-nx-de2aa-001/58102/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "58826",
-    "name": "Notebook Acer Aspire Go 16 AG16-71PT-5388 Intel Core 5 120U Pantalla Touch WUXGA 16\" / 16GB de RAM / 1TB SSD / Win11Home - Pure Plata (Inglês)",
-    "price": 660.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-acer-aspire-go-16-ag16-71pt-5388-intel-core-5-120u-pantalla-touch-wuxga-16-16gb-de-ram-1tb-ssd-win11home-pure-plata-ingles/58826/737570.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-acer-aspire-go-16-ag16-71pt-5388-intel-core-5-120u-pantalla-touch-wuxga-16-16gb-de-ram-1tb-ssd-win11home-pure-plata-ingles/58826/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "58760",
-    "name": "Notebook Acer Aspire Go 15 AG15-21P-R5YG AMD Ryzen 3 7320U Pantalla Full HD 15.6\" / 8GB de RAM / 128GB SSD / Win11Home - Pure Plata (Inglés)",
-    "price": 342.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-acer-aspire-go-15-ag15-21p-r5yg-amd-ryzen-3-7320u-pantalla-full-hd-156-8gb-de-ram-128gb-ssd-win11home-pure-plata-ingles/58760/737213.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-acer-aspire-go-15-ag15-21p-r5yg-amd-ryzen-3-7320u-pantalla-full-hd-15-6-8gb-de-ram-128gb-ssd-win11home-pure-plata-ingles/58760/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "54908",
-    "name": "Notebook Dell 15 DC15250 Intel Core i7 1355U Pantalla Full HD 15.6\" / 16GB de RAM / 512GB SSD - Platinum Plata (Inglés)",
-    "price": 700.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-dell-15-dc15250-intel-core-i7-1355u-pantalla-full-hd-156-16gb-de-ram-512gb-ssd-platinum-plata-ingles/54908/721390.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-dell-15-dc15250-intel-core-i7-1355u-pantalla-full-hd-15-6-16gb-de-ram-512gb-ssd-platinum-plata-ingles/54908/"
-  },
-  {
-    "store": "visaovip",
-    "sku": "59032",
-    "name": "Notebook Lenovo V15 IRU Intel Core i3 1315U Pantalla Full HD 15.6\" / 16GB de RAM / 512GB SSD / Win11Home - Business Negro (83A100PBUS) (Inglés)",
-    "price": 475.0,
-    "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-v15-iru-intel-core-i3-1315u-pantalla-full-hd-156-16gb-de-ram-512gb-ssd-win11home-business-negro-83a100pbus-ingles/59032/738455.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-v15-iru-intel-core-i3-1315u-pantalla-full-hd-15-6-16gb-de-ram-512gb-ssd-win11home-business-negro-83a100pbus-ingles/59032/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-yoga-7-2-in-1-14agp11-amd-ryzen-ai-7-445-pantalla-touch-oled-wuxga-140-24gb-de-ram-512gb-ssd-win11home-seashell-83td0047us-ingles/59713/741102.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-yoga-7-2-in-1-14agp11-amd-ryzen-ai-7-445-pantalla-touch-oled-wuxga-14-0-24gb-de-ram-512gb-ssd-win11home-seashell-83td0047us-ingles/59713/"
   },
   {
     "store": "visaovip",
@@ -136,21 +55,39 @@
   },
   {
     "store": "visaovip",
-    "sku": "55287",
-    "name": "Notebook Lenovo V14 G4 IRU Intel Core i7 13620H Pantalla Full HD 14.0\" / 16GB de RAM / 512GB SSD - Business Negro (83A000PCUS) (Inglés)",
-    "price": 643.0,
+    "sku": "58827",
+    "name": "Notebook Lenovo IdeaPad Slim 3 15ITN9 Intel N150 Pantalla Full HD 15.6\" / 8GB de RAM / 128GB UFS / Win11Home - Artic Gris (83L7002FUS) (Inglés)",
+    "price": 343.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-v14-g4-iru-intel-core-i7-13620h-pantalla-full-hd-140-16gb-de-ram-512gb-ssd-business-negro-83a000pcus-ingles/55287/723167.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-v14-g4-iru-intel-core-i7-13620h-pantalla-full-hd-14-0-16gb-de-ram-512gb-ssd-business-negro-83a000pcus-ingles/55287/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-ideapad-slim-3-15itn9-intel-n150-pantalla-full-hd-156-8gb-de-ram-128gb-ufs-win11home-artic-gris-83l7002fus-ingles/58827/737555.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-ideapad-slim-3-15itn9-intel-n150-pantalla-full-hd-15-6-8gb-de-ram-128gb-ufs-win11home-artic-gris-83l7002fus-ingles/58827/"
   },
   {
     "store": "visaovip",
-    "sku": "58825",
-    "name": "Notebook Lenovo IdeaPad Slim 3 15IRU8 Intel Core i5 1334U Pantalla Full HD 15.6\" / 8GB de RAM / 512GB SSD / Win11Home - Artic Gris (82X700EDUS) (Inglés)",
-    "price": 490.0,
+    "sku": "56444",
+    "name": "Notebook Lenovo IdeaPad Slim 3 15IAN8 Intel N100 Pantalla Full HD 15.6\" / 4GB de RAM / 128GB UFS / Win11Home - Artic Gris (82XB00HVUS) (Inglés)",
+    "price": 237.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-ideapad-slim-3-15iru8-intel-core-i5-1334u-pantalla-full-hd-156-8gb-de-ram-512gb-ssd-win11home-artic-gris-82x700edus-ingles/58825/737862.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-ideapad-slim-3-15iru8-intel-core-i5-1334u-pantalla-full-hd-15-6-8gb-de-ram-512gb-ssd-win11home-artic-gris-82x700edus-ingles/58825/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-ideapad-slim-3-15ian8-intel-n100-pantalla-full-hd-156-4gb-de-ram-128gb-ufs-win11home-artic-gris-82xb00hvus-ingles/56444/727681.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-ideapad-slim-3-15ian8-intel-n100-pantalla-full-hd-15-6-4gb-de-ram-128gb-ufs-win11home-artic-gris-82xb00hvus-ingles/56444/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "58724",
+    "name": "Notebook Lenovo IdeaPad Slim 3 15AMN8 AMD Ryzen 5 40 Pantalla Full HD 15.6\" / 8GB de RAM / 256GB SSD / Win11 - Abyss Azul (82XQ012GUS) (Inglés)",
+    "price": 428.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-ideapad-slim-3-15amn8-amd-ryzen-5-40-pantalla-full-hd-156-8gb-de-ram-256gb-ssd-win11-abyss-azul-82xq012gus-ingles/58724/737184.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-ideapad-slim-3-15amn8-amd-ryzen-5-40-pantalla-full-hd-15-6-8gb-de-ram-256gb-ssd-win11-abyss-azul-82xq012gus-ingles/58724/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "55426",
+    "name": "Notebook HP Omnibook 5 AI 16-AG1070WM AMD Ryzen AI 7 350 Pantalla 2K 16.0\" / 16GB de RAM / 512GB SSD / Win11 - Plata (Inglés)",
+    "price": 674.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-omnibook-5-ai-16-ag1070wm-amd-ryzen-ai-7-350-pantalla-2k-160-16gb-de-ram-512gb-ssd-win11-plata-ingles/55426/739742.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-omnibook-5-ai-16-ag1070wm-amd-ryzen-ai-7-350-pantalla-2k-16-0-16gb-de-ram-512gb-ssd-win11-plata-ingles/55426/"
   },
   {
     "store": "visaovip",
@@ -163,56 +100,119 @@
   },
   {
     "store": "visaovip",
-    "sku": "55297",
-    "name": "Notebook HP Omnibook 3 AI 15-FN0105DX AMD Ryzen AI 5 330 Pantalla Touch Full HD 15.6\" / 16GB de RAM / 512GB SSD / Win11Home - Plata (Inglés)",
-    "price": 615.0,
+    "sku": "58421",
+    "name": "Notebook HP Omnibook 3 16-BY0205DX AMD Ryzen 5 40 Pantalla Touch 2K IPS 16.0\" / 16GB de RAM / 256GB SSD / Win11 - Plata (Inglés) (D10E8UA#ABA)",
+    "price": 525.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-omnibook-3-ai-15-fn0105dx-amd-ryzen-ai-5-330-pantalla-touch-full-hd-156-16gb-de-ram-512gb-ssd-win11home-plata-ingles/55297/723081.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-omnibook-3-ai-15-fn0105dx-amd-ryzen-ai-5-330-pantalla-touch-full-hd-15-6-16gb-de-ram-512gb-ssd-win11home-plata-ingles/55297/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-omnibook-3-16-by0205dx-amd-ryzen-5-40-pantalla-touch-2k-ips-160-16gb-de-ram-256gb-ssd-win11-plata-ingles-d10e8uaaba/58421/735363.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-omnibook-3-16-by0205dx-amd-ryzen-5-40-pantalla-touch-2k-ips-16-0-16gb-de-ram-256gb-ssd-win11-plata-ingles-d10e8ua-aba/58421/"
   },
   {
     "store": "visaovip",
-    "sku": "59452",
-    "name": "Notebook ASUS Vivobook X1504VA-BQ4373W Intel Core 5 120U Pantalla Full HD 15.6\" / 8GB de RAM / 512GB SSD / Win11Home - Quiet Azul (Inglés)",
-    "price": 505.0,
+    "sku": "59547",
+    "name": "Notebook HP Omnibook 3 16-BU0007DX Intel Core Ultra 7 255U Pantalla Touch 2K 16.0\" / 16GB de RAM / 512GB SSD / Win11 - Negro (Inglés)",
+    "price": 887.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-asus-vivobook-x1504va-bq4373w-intel-core-5-120u-pantalla-full-hd-156-8gb-de-ram-512gb-ssd-win11home-quiet-azul-ingles/59452/740463.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-asus-vivobook-x1504va-bq4373w-intel-core-5-120u-pantalla-full-hd-15-6-8gb-de-ram-512gb-ssd-win11home-quiet-azul-ingles/59452/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-omnibook-3-16-bu0007dx-intel-core-ultra-7-255u-pantalla-touch-2k-160-16gb-de-ram-512gb-ssd-win11-negro-ingles/59547/740704.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-omnibook-3-16-bu0007dx-intel-core-ultra-7-255u-pantalla-touch-2k-16-0-16gb-de-ram-512gb-ssd-win11-negro-ingles/59547/"
   },
   {
     "store": "visaovip",
-    "sku": "59576",
-    "name": "Notebook ASUS Vivobook X1504VA-BQ4178W Intel Core 5 120U Pantalla Full HD 15.6\" / 8GB de RAM / 512GB SSD / Win11Home - Quiet Azul (Español)",
-    "price": 505.0,
+    "sku": "58798",
+    "name": "Notebook HP 250R G10 Intel Core 5 120U Pantalla HD 15.6\" / 16GB de RAM / 512GB SSD / FreeDOS - Gris (Español)",
+    "price": 590.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-asus-vivobook-x1504va-bq4178w-intel-core-5-120u-pantalla-full-hd-156-8gb-de-ram-512gb-ssd-win11home-quiet-azul-espanol/59576/740839.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-asus-vivobook-x1504va-bq4178w-intel-core-5-120u-pantalla-full-hd-15-6-8gb-de-ram-512gb-ssd-win11home-quiet-azul-espanol/59576/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-250r-g10-intel-core-5-120u-pantalla-hd-156-16gb-de-ram-512gb-ssd-freedos-gris-espanol/58798/737240.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-250r-g10-intel-core-5-120u-pantalla-hd-15-6-16gb-de-ram-512gb-ssd-freedos-gris-espanol/58798/"
   },
   {
     "store": "visaovip",
-    "sku": "58407",
-    "name": "Notebook HP 15-FD0883NR Intel Core i3 N305 Pantalla Touch HD IPS 15.6\" / 8GB de RAM / 256GB SSD / Win11 - Azul / Plata (Inglés) (B89P1UA#ABA)",
-    "price": 420.0,
+    "sku": "57896",
+    "name": "Notebook HP 15-FD2747NR Intel Core Ultra 7 255U Pantalla Touch Full HD 15.6\" / 16GB de RAM / 512GB SSD / Win11 - Plata (Inglés)",
+    "price": 713.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-15-fd0883nr-intel-core-i3-n305-pantalla-touch-hd-ips-156-8gb-de-ram-256gb-ssd-win11-azul-plata-ingles-b89p1uaaba/58407/735153.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-15-fd0883nr-intel-core-i3-n305-pantalla-touch-hd-ips-15-6-8gb-de-ram-256gb-ssd-win11-azul-plata-ingles-b89p1ua-aba/58407/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-15-fd2747nr-intel-core-ultra-7-255u-pantalla-touch-full-hd-156-16gb-de-ram-512gb-ssd-win11-plata-ingles/57896/732859.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-15-fd2747nr-intel-core-ultra-7-255u-pantalla-touch-full-hd-15-6-16gb-de-ram-512gb-ssd-win11-plata-ingles/57896/"
   },
   {
     "store": "visaovip",
-    "sku": "57161",
-    "name": "NB HP 15-FD0183WM I7-1355U 1.7GHz/16GB/1TB SSD/15.6\"FHD IPS/INGLES PRATA B4GZ5UA#ABA",
-    "price": 718.0,
+    "sku": "55295",
+    "name": "Notebook HP 15-FD0133WM Intel Core i3 N305 Pantalla Full HD 15.6\" / 8GB de RAM / 256GB SSD / Win11Home - Plata (Inglés)",
+    "price": 415.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/nb-hp-15-fd0183wm-i7-1355u-17ghz16gb1tb-ssd156fhd-ipsingles-prata-b4gz5uaaba/57161/729329.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/nb-hp-15-fd0183wm-i7-1355u-1-7ghz-16gb-1tb-ssd-15-6-fhd-ips-ingles-prata-b4gz5ua-aba/57161/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-15-fd0133wm-intel-core-i3-n305-pantalla-full-hd-156-8gb-de-ram-256gb-ssd-win11home-plata-ingles/55295/723152.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-15-fd0133wm-intel-core-i3-n305-pantalla-full-hd-15-6-8gb-de-ram-256gb-ssd-win11home-plata-ingles/55295/"
   },
   {
     "store": "visaovip",
-    "sku": "59441",
-    "name": "Notebook Gamer ASUS TUF A16 FA608UH-RV017W AMD Ryzen 7 260 Pantalla WUXGA 16.0\" / 16GB de RAM / 512GB SSD / Win11Home / GeForce RTX5050 8GB - Jaeger Gris (Español)",
-    "price": 1130.0,
+    "sku": "59581",
+    "name": "Notebook HP 15-FD0050DA Intel Core i5 1334U Pantalla Full HD 15.6\" / 8GB de RAM / 512GB SSD / Win11Home - Plata (Inglés)",
+    "price": 515.0,
     "description": null,
-    "image_url": "https://cdn.visaovip.com/img/prod/notebook-gamer-asus-tuf-a16-fa608uh-rv017w-amd-ryzen-7-260-pantalla-wuxga-160-16gb-de-ram-512gb-ssd-win11home-geforce-rtx5050-8gb-jaeger-gris-espanol/59441/740512.jpg",
-    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-gamer-asus-tuf-a16-fa608uh-rv017w-amd-ryzen-7-260-pantalla-wuxga-16-0-16gb-de-ram-512gb-ssd-win11home-geforce-rtx5050-8gb-jaeger-gris-espanol/59441/"
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-15-fd0050da-intel-core-i5-1334u-pantalla-full-hd-156-8gb-de-ram-512gb-ssd-win11home-plata-ingles/59581/740835.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-15-fd0050da-intel-core-i5-1334u-pantalla-full-hd-15-6-8gb-de-ram-512gb-ssd-win11home-plata-ingles/59581/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "58757",
+    "name": "Notebook HP 14-DQ6101DX Intel Celeron N150 / Pantalla HD 14.0\" / 4GB de RAM / 128GB UFS / W11 - Plata (Inglés)",
+    "price": 235.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-14-dq6101dx-intel-celeron-n150-pantalla-hd-140-4gb-de-ram-128gb-ufs-w11-plata-ingles/58757/737204.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-14-dq6101dx-intel-celeron-n150-pantalla-hd-14-0-4gb-de-ram-128gb-ufs-w11-plata-ingles/58757/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "59426",
+    "name": "Notebook HP 14-CF2111WM Intel Celeron N4120 Pantalla HD 14.0\" / 4GB de RAM / 64GB eMMC / Win11 - Azul (Inglés)",
+    "price": 220.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-14-cf2111wm-intel-celeron-n4120-pantalla-hd-140-4gb-de-ram-64gb-emmc-win11-azul-ingles/59426/740844.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-14-cf2111wm-intel-celeron-n4120-pantalla-hd-14-0-4gb-de-ram-64gb-emmc-win11-azul-ingles/59426/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "54695",
+    "name": "Notebook HP 15-FC0146DX AMD Ryzen 5 7520U Pantalla Touch Full HD 15.6\" / 8GB de RAM / 512GB SSD / Win11Home - Plata (Inglés)",
+    "price": 439.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-15-fc0146dx-amd-ryzen-5-7520u-pantalla-touch-full-hd-156-8gb-de-ram-512gb-ssd-win11home-plata-ingles/54695/720275.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-15-fc0146dx-amd-ryzen-5-7520u-pantalla-touch-full-hd-15-6-8gb-de-ram-512gb-ssd-win11home-plata-ingles/54695/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "54155",
+    "name": "Notebook Lenovo IdeaPad Slim 3 15IAN8 Intel Core i3 N305 Pantalla Full HD 15.6\" / 8GB de RAM / 256GB SSD / Win11Home - Abyss Azul (82XB00BMUS) (Inglés)",
+    "price": 408.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-ideapad-slim-3-15ian8-intel-core-i3-n305-pantalla-full-hd-156-8gb-de-ram-256gb-ssd-win11home-abyss-azul-82xb00bmus-ingles/54155/718058.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-ideapad-slim-3-15ian8-intel-core-i3-n305-pantalla-full-hd-15-6-8gb-de-ram-256gb-ssd-win11home-abyss-azul-82xb00bmus-ingles/54155/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "51965",
+    "name": "Notebook Lenovo IdeaPad Slim 3 15ABR8 AMD Ryzen 7 5825U Pantalla Touch FHD 15.6\" / 16GB de RAM / 512GB SSD / Win11Home - Arctic Gris (82XM00LMUS) (Inglés)",
+    "price": 566.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-lenovo-ideapad-slim-3-15abr8-amd-ryzen-7-5825u-pantalla-touch-fhd-156-16gb-de-ram-512gb-ssd-win11home-arctic-gris-82xm00lmus-ingles/51965/708489.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-lenovo-ideapad-slim-3-15abr8-amd-ryzen-7-5825u-pantalla-touch-fhd-15-6-16gb-de-ram-512gb-ssd-win11home-arctic-gris-82xm00lmus-ingles/51965/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "51939",
+    "name": "Notebook HP Omnibook 5 16-AG1075CL AMD Ryzen AI 7 350 Pantalla Touch 2K 16.0\" / 32GB de RAM / 1TB SSD - Plata (Inglés)",
+    "price": 910.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-hp-omnibook-5-16-ag1075cl-amd-ryzen-ai-7-350-pantalla-touch-2k-160-32gb-de-ram-1tb-ssd-plata-ingles/51939/708390.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-hp-omnibook-5-16-ag1075cl-amd-ryzen-ai-7-350-pantalla-touch-2k-16-0-32gb-de-ram-1tb-ssd-plata-ingles/51939/"
+  },
+  {
+    "store": "visaovip",
+    "sku": "57789",
+    "name": "Notebook Gamer Gigabyte A16 3WHK3LA894PD AMD Ryzen 7 260 Pantalla Full HD+ 16.0\" / 16GB de RAM / 1TB SSD / GeForce RTX5070 8GB / EFI SHELL - Negro (Español)",
+    "price": 1369.0,
+    "description": null,
+    "image_url": "https://cdn.visaovip.com/img/prod/notebook-gamer-gigabyte-a16-3whk3la894pd-amd-ryzen-7-260-pantalla-full-hd-160-16gb-de-ram-1tb-ssd-geforce-rtx5070-8gb-efi-shell-negro-espanol/57789/732164.jpg",
+    "source_url": "https://www.visaovip.com/es/prod/notebook/notebook-gamer-gigabyte-a16-3whk3la894pd-amd-ryzen-7-260-pantalla-full-hd-16-0-16gb-de-ram-1tb-ssd-geforce-rtx5070-8gb-efi-shell-negro-espanol/57789/"
   }
 ]
